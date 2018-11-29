@@ -1,0 +1,12 @@
+package com.zookeeper.firstVersion;
+
+public class GorillaTest {
+
+	public static void main(String[] args) {
+		Gorilla g = new Gorilla();
+		g.throwSomething().throwSomething().eatBananas().climb().eatBananas().climb();
+		g.displayEnergy();
+
+	}
+
+}

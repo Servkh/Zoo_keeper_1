@@ -1,0 +1,11 @@
+package com.zookeeper.firstVersion;
+
+public class Gorilla extends Mammal {
+	
+	public throwSomething() {
+		System.out.println("Gorilla threw something and lost 5 energy");
+		this.energyLevel -= 5;
+		return this.energyLevel;
+	}
+
+}
